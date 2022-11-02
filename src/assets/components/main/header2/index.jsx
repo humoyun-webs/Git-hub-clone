@@ -10,7 +10,7 @@ const index = () => {
       <div className="container navbar2">
        <div className="width">
         <ul className="nav-ul2">
-          <NavLink to={"/git"}>
+          <NavLink to={"/"}>
         <li className="nav-item d-flex justify-content-center align-items-center gap-2">
                <i class="bi bi-book"></i>
                  <a
