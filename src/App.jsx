@@ -25,7 +25,7 @@ let getFollowers = Api.getFollowers()
       <div className="sections">
       <LeftSection/>
      <Routes>
-      <Route path="/overview" element={<Overwiew/>} />
+      <Route path="/" element={<Overwiew/>} />
       <Route path="repo" element={<Repostories/>} />
       <Route path="followers" element={<Followers/>}/>
      </Routes>
